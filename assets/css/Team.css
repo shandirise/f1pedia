@@ -1,0 +1,95 @@
+.mobil{
+    height: 63px;
+    animation:2s ease-out 0s 1 gambarIlang;
+}
+.namaTim{
+    font-family: Impact;
+    text-align: center;
+    font-size: 25px;
+
+}
+.principal{
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+.tpname{
+    text-align: center;
+    font-size: 10px;
+}
+.bawahin{
+    vertical-align: bottom;
+}
+.posisi{
+    font-family: Impact;
+    font-size: 20px;
+}
+.poin{
+    font-family: sans-serif;text-align: right;font-size: 13px;
+}
+.kanan{
+    text-align: right;
+}
+.kotak{
+    color: rgb(216, 216, 216);
+    background-color: rgb(39, 39, 39);
+    border-left: 2pt solid rgb(220, 20, 60);
+    border-bottom: 1pt solid crimson;
+    text-align:justify;
+    padding: 15px;
+    border-radius: 20px;
+    animation:1.7s ease-out 0s 1 kotakawal;
+}
+
+.kotak a{
+    display: block;
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    animation:1.7s ease-out 0s 1 linkanima;
+}
+
+.kotak:hover{
+    filter: drop-shadow(0 0 7px crimson);
+}
+@keyframes kotakawal{
+    0%{
+        color: rgb(216, 216, 216, 0);
+    }
+    50%{
+        color: rgb(216, 216, 216, 0);
+
+    }
+    100%{
+        color: rgb(216, 216, 216);
+    }
+}
+@keyframes linkanima{
+    0%{
+        color: rgb(216, 216, 216, 0);
+
+    }
+    50%{
+        color: rgb(216, 216, 216, 0);
+
+    }
+    100%{
+        color: rgb(216, 216, 216);
+    }
+}
+@keyframes gambarIlang{
+    0%{
+        opacity: 0;
+
+    }
+    15%{
+        opacity: 0;
+
+    }
+    30%{
+        opacity: 0.5;
+
+    }
+    100%{
+        opacity: 1.0;
+    }
+}

@@ -1,0 +1,29 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    padding: 8px;
+}
+th {
+    background-color: rgb(152, 0, 30 );
+    color: white;
+}
+.gelap{
+    background-color: rgba(67, 67, 67, 0.781);
+    color: white;
+}
+.terang{
+    background-color: rgba(155, 155, 155, 0.772);
+    color: #ffffff;
+}
+.bendera{
+    width: 20px;
+}
+.cancel{
+    color: red;
+    font-weight: bold;
+}

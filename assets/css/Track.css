@@ -1,0 +1,136 @@
+.tengah{
+    margin-left: auto;
+    margin-right: auto;
+}
+.kotak{
+    background-color: rgb(39, 39, 39);
+    border-radius: 15px;
+    border-left: 3pt solid rgb(220, 20, 60);
+    border-bottom: 2pt solid crimson;
+}
+.kotak:hover{
+    filter: drop-shadow(0 0 7px crimson);
+}
+.space{
+    width: 12px;
+}
+.spaceTengah{
+    width: 40px;
+}
+.sirkuit{
+    height: 160px;
+    filter: drop-shadow(0 0 3px white);
+    animation: 3s ease-out 0s 1 animasiSirkuit;
+}
+@keyframes animasiSirkuit{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    35%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.bendera{
+    height: 40px;
+    float: right;
+    filter: drop-shadow(0 0 2px white);
+    animation: 2s ease-out 0s 1 animasiBendera;
+}
+@keyframes animasiBendera{
+    0%{
+        opacity: 0;
+    }
+    15%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.namaGP{
+    text-align: right;
+    color: white;
+    font-family: impact;
+    font-size: 28px;
+    line-height: 10%;
+    animation: 4s ease-out 0s 1 animasiGP;
+}
+@keyframes animasiGP{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.8;
+    }   
+    100%{
+        opacity: 1;
+    }
+}
+.F12023{
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    animation: 5.5s ease-out 0s 1 animasiF1;
+}
+@keyframes animasiF1{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1  ;
+    }   
+    100%{
+        opacity: 1;
+    }
+}
+.namaTrack1{
+    text-align: right;
+    color: white;
+    vertical-align: bottom;
+    line-height: 60%;
+    font-size: 15px;
+    animation: 6.5s ease-out 0s 1 animasiTrack;
+
+}
+.namaTrack2{
+    line-height: 85%;
+    text-align: right;
+    color: white;
+    vertical-align: top;
+    font-size: 15px;
+    animation: 6.5s ease-out 0s 1 animasiTrack;
+}
+@keyframes animasiTrack{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1  ;
+    }   
+    100%{
+        opacity: 1;
+    }
+}

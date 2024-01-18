@@ -1,0 +1,54 @@
+.Page{
+    top: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Head{
+    color: rgb(216, 216, 216);
+    background-color: rgb(39, 39, 39);
+    font-size: 45px;
+    border-left: 7.5pt solid rgb(220, 20, 60);
+    border-bottom: 3pt solid crimson;
+    text-align:justify;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.Head p::first-letter{
+    font-size: 90px;
+}
+.Head img{
+    height: 250px;
+    width: 100%;
+}
+
+
+.News{
+    color: rgb(216, 216, 216);
+    background-color: rgb(39, 39, 39);
+    font-size: 30px;
+    border-left: 5pt solid rgb(220, 20, 60);
+    border-bottom: 2pt solid crimson;
+    text-align:justify;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+.News img{
+    align-content: center;
+    align-items: center;
+    height: 200px;
+    display: flex;
+    align:center;
+}
+
+/*Nanti dibikin hover yaaa...s*/
+.News :hover{
+    font-size: 30px;
+}
+
+.TitleNews{
+    color: crimson;
+    font-weight: bold;
+    text-align: left;
+}
