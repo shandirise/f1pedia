@@ -1,0 +1,46 @@
+body{
+    color: white;
+}
+.tengah{
+    margin-left: auto;
+    margin-right: auto;
+}
+.kotak{
+    background-color: rgb(39, 39, 39);
+    border-radius: 15px;
+    border-left: 3pt solid rgb(220, 20, 60);
+    border-bottom: 2pt solid crimson;
+}
+.firstName{
+    min-width: 180px;
+    max-width: 180px;
+    font-family:F1;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.lastName{
+    font-family: F1Bold;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.bendera{
+    width: 40px;
+    padding-right: 18px;
+}
+.team{
+    font-family: F1;font-size: 12px;padding-left: 10px;
+}
+.driver{
+    width: 200px;
+}
+.bawah{
+    vertical-align: bottom;
+}
+.nomor{
+    width: 100px;
+}
+.nomorbl{
+    width: 100px;
+    filter: drop-shadow(0 0 3px white);
+}
