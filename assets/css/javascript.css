@@ -1,0 +1,30 @@
+body{
+    font-family: F1;
+}
+.box{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(39, 39, 39);
+    border-radius: 15px;
+    border-left: 3pt solid rgb(220, 20, 60);
+    border-bottom: 2pt solid crimson;
+    padding: 40px;
+    font-family: F1;
+}
+.bttnwrapper{
+    padding-top: 3px;
+}
+.button {
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 4px 17px;
+    font-family: F1;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
